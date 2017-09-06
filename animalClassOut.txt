@@ -1,0 +1,26 @@
+In [5]: cow = animal('bessie',100)
+
+In [6]: cow.walk().walk().walk().run().run().display_health()
+Health: 87
+
+In [7]: fido = dog('fido')
+
+In [8]: fido.walk().walk().walk().run().run().pet().display_health()
+Health: 142
+
+In [9]: puff = dragon('puff')
+
+In [10]: puff.display_health()
+Health: 170
+I am a dragon
+
+In [11]: horse = animal('silver',100)
+
+In [12]: horse.pet()
+AttributeError: 'animal' object has no attribute 'pet'
+
+In [13]: horse.fly()
+AttributeError: 'animal' object has no attribute 'fly'
+
+In [14]: fido.fly()
+AttributeError: 'dog' object has no attribute 'fly'
